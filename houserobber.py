@@ -16,4 +16,4 @@ class Solution(object):
         return work[len(work)-1]
 
 s = Solution()
-print (s.rob(nums[4,6,13,2]))
+print (s.rob([4,6,13,2]))
