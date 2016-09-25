@@ -19,6 +19,6 @@ class Solution(object):
 
 
 s = Solution()
-print (s.containsDuplicate([3,3]))
+print (s.containsDuplicate([3,5,3,4]))
 
 
