@@ -1,6 +1,6 @@
-def change(n, coins_available, coins_so_far):
+def change(n, coins_available):
 	# n is target
-	result = []
+	coins_so_far = None
 	if sum(coins_so_far) == n:
 		yield coins_so_far
 	elif sum(coins_so_far) > n:

@@ -1,4 +1,5 @@
-for i in range(1,101):
+n=1
+for i in range(n):
 	if i % 3 and i % 5 == 0:
 		print("fizzbuzz")
 	elif i % 3 == 0:
